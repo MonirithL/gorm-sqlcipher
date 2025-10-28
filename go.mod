@@ -4,10 +4,7 @@ go 1.24.0
 
 replace github.com/MonirithL/gorm-sqlcipher/sqlite3 => ./sqlite3
 
-require (
-	github.com/MonirithL/gorm-sqlcipher/sqlite3 v0.0.0-20251028085819-239e4258432a
-	gorm.io/gorm v1.31.0
-)
+require gorm.io/gorm v1.31.0
 
 require (
 	github.com/jinzhu/inflection v1.0.0 // indirect
