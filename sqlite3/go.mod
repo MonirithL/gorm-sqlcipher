@@ -1,5 +1,0 @@
-module github.com/MonirithL/monirith-go-sqlcipher
-
-go 1.19
-
-retract [v2.0.0+incompatible, v2.0.6+incompatible] // Accidental; no major changes or features.
