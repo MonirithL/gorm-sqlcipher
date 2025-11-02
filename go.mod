@@ -1,15 +1,16 @@
-module github.com/gdanko/gorm-sqlcipher
+module github.com/MonirithL/gorm-sqlcipher
 
-go 1.22.2
+go 1.24.0
+
+toolchain go1.24.2
 
 require (
-	github.com/mutecomm/go-sqlcipher v0.0.0-20190227152316-55dbde17881f
-	gorm.io/gorm v1.25.11
+	github.com/MonirithL/go-sqlcipher v0.1.1
+	gorm.io/gorm v1.31.0
 )
 
 require (
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
-	golang.org/x/net v0.0.0-20190225153610-fe579d43d832 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/text v0.30.0 // indirect
 )
