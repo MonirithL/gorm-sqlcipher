@@ -20,5 +20,14 @@ db, err := gorm.Open(sqlcipher.Open(dbName), &gorm.Config{})
 ```
 
 ## More
-- https://github.com/mutecomm/go-sqlcipher
-- https://github.com/go-gorm/gorm
+
+
+- Zetetic LLC : https://github.com/sqlcipher/sqlcipher
+- LibTomCrypt : https://github.com/libtom/libtomcrypt
+- Yasuhiro Matsumoto (a.k.a mattn): https://github.com/mattn/go-sqlite3
+- Gdanko : https://github.com/gdanko/gorm-sqlcipher
+- Gorm : https://github.com/go-gorm/gorm
+- Mutecomm: https://github.com/mutecomm/go-sqlcipher
+
+
+__other relevant liscensing is here: https://github.com/MonirithL/go-sqlcipher__
